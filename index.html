@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#007BFF" />
+
+    <link rel="shortcut icon" href="icons/" type="image/x-icon">
+    <title>New Saleem Tent Service - Expense Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>New Saleem Tent Service <br> <span>- Quick Bill Maker -</span></h1>
+
+      <div class="item-header">
+        <div>Items</div>
+        <div>Rate</div>
+        <div style="margin-left: 20px;">Qty</div>
+        <div style="margin-left: 20px;">Subtotal</div>
+      </div>
+
+      <!-- Item Rows -->
+<div class="item-row"><div style="font-weight:600;">1) Chamach</div><div>8</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 8, 0)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">2) Plate-small</div><div>10</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 10, 1)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">3) Plate-medium</div><div>10</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 10, 2)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">4) Steel-glass</div><div>15</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 15, 3)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">5) Choras plate S</div><div>15</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 15, 4)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">6) Choras plate M</div><div>15</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 15, 5)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">7) Paraat</div><div>20</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 20, 6)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">8) Jug</div><div>25</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 25, 7)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">9) Glass</div><div>25</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 25, 8)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">10) Service chamach</div><div>25</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 25, 9)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">11) Bowl</div><div>30</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 30, 10)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">12) Dish</div><div>30</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 30, 11)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">13) Kursi</div><div>50</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 50, 12)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">14) Chadar</div><div>150</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 150, 13)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">15) Kanaat</div><div>200</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 200, 14)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">16) Hamaam</div><div>200</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 200, 15)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">17) Tub</div><div>200</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 200, 16)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">18) Carpet</div><div>200</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 200, 17)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">19) Table</div><div>200</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 200, 18)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">20) Round table</div><div>250</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 250, 19)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">21) Stage table</div><div>400</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 400, 20)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">22) Tent</div><div>500</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 500, 21)" /></div><div class="subtotal">0</div></div>
+
+<div class="item-row"><div style="font-weight:600;">23) Kupa</div><div>12000</div><div><input type="number" min="0" value="0" oninput="updateSubtotal(this, 12000, 22)" /></div><div class="subtotal">0</div></div>
+
+      <div class="buttons">
+        <button class="btn btn-bill" onclick="makeBill()">Make Bill</button>
+        <button class="btn btn-clear" onclick="clearAll()">Clear</button>
+      </div>
+    </div>
+
+    <!-- Bill Popup -->
+    <div class="bill-popup" id="billPopup">
+      <div class="bill-content">
+        <h2>Bill Summary</h2>
+        <table id="billTable">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Qty</th>
+              <th>Subtotal</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <h3 id="grandTotal"></h3>
+        <button class="btn btn-clear" onclick="closeBill()">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
